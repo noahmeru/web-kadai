@@ -1,0 +1,85 @@
+.header-logo{
+  height: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  margin: -15px;
+}
+.header-nav-list{
+  display: flex;
+}
+.header-nav-item:not(:last-child){
+  margin-right: 20px;
+}
+.firstview{
+  height: 500px;
+}
+.first-img{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.main{
+  position: relative;
+}
+.home{
+  position: absolute;
+  top: 30%;
+  right: 600px;
+}
+.text-1{
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: purple;
+}
+.span-1{
+  color: aqua;
+}
+.text-2{
+  font-size: 20px;
+  color: purple;
+  margin-bottom: 10px;
+}
+.span-2{
+  color: aqua;
+}
+.news-title{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.news-mini{
+  color: purple;
+}
+.news{
+  display: flex;
+  justify-content: center;
+}
+.news-list{
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: rgb(84, 83, 83);
+  margin-top: 50px;
+}
+.news-item{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(84, 83, 83);
+}
+.news-item:first-child{
+  margin-top: 20px;
+}
+.news-item:last-child{
+  margin-bottom: 20px;
+}
+
