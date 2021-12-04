@@ -1,3 +1,6 @@
+body{
+  width: 1200px;
+}
 .header-logo{
   height: 30px;
 }
@@ -31,7 +34,7 @@ a {
 }
 .home{
   position: absolute;
-  top: 30%;
+  top: 150px;
   right: 600px;
 }
 .text-1{
@@ -51,12 +54,11 @@ a {
   color: aqua;
 }
 .news-title{
-  display: flex;
-  justify-content: center;
   margin: 30px;
 }
 .news-mini{
   color: purple;
+  margin-bottom: 30px;
 }
 .news{
   display: flex;
@@ -82,4 +84,161 @@ a {
 .news-item:last-child{
   margin-bottom: 20px;
 }
-
+.news-tg{
+  background-color: purple;
+  color: #fff;
+  border-radius: 20px;
+  margin: 0px 20px 0px 20px;
+  padding: 0 20px 0 20px;
+}
+.about{
+  background-color: rgb(182, 182, 182);
+  height: 400px;
+  margin-top: 50px;
+}
+.about-logo{
+  color: purple;
+  transform: translate(50%,40px);
+}
+.about-title{
+  transform: translate(42%,50px);
+  font-size: 20px;
+  font-weight: bold;
+}
+.about-img{
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+.about-img-2{
+  height: 250px;
+  position: absolute;
+  top: -30px;
+  right: 50px;
+}
+.about-text{
+  transform: translate(20%,100px);
+}
+.service-top{
+  transform: translate(20%);
+}
+.service-rogo{
+  color: purple;
+  margin-top: 50px;
+}
+.service-title{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+}
+.service-card-img-1{
+  height: 150px;
+  margin-top: 20px;
+}
+.service-card-title-1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.service-card-1{
+  color:#fff;
+  background-color: purple;
+  height: 300px;
+  width: 400px;
+  transform: translate(270px);
+  text-align: center;
+}
+.service-card-2{
+  color: #fff;
+  background-color: rgb(191, 43, 199);
+  height: 150px;
+  width: 400px;
+  transform: translate(670px,-300px);
+  display: flex;
+  align-items: center;
+}
+.service-card-img-2{
+  height: 100px;
+  display: inline;
+}
+.service-card-title-2{
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.service-card-3{
+  color: #fff;
+  background-color: rgb(235, 109, 242);
+  height: 150px;
+  width: 400px;
+  transform: translate(670px,-300px);
+  display: flex;
+  align-items: center;
+}
+.service-card-img-3{
+  height: 100px;
+}
+.service-card-title-3{
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.service{
+  margin-bottom: -200px;
+}
+.blog{
+  background-color: rgb(209, 209, 209);
+  height: 500px;
+}
+.blog-logo{
+  color: purple;
+  padding-top: 20px;
+}
+.blog-blog{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.blog-img{
+  width: 250px;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 30px;
+}
+.blog-card{
+  display: flex;
+  justify-content: space-around;
+}
+.blog-card-1{
+  height: 300px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+}
+.blog-card-blog{
+  color: #fff;
+  font-size: 20px;
+  width: 50px;
+  height: 30px;
+  border-radius: 20px 0 0 0;
+  background-color: purple;
+  position: absolute;
+}
+.blog-card-text-1{
+  margin-bottom: 30px;
+}
+.blog-card-text-time{
+  display: flex;
+  justify-content: space-around;
+}
+.blog-itirann{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.itirann{
+  width: 150px;
+  height: 50px;
+  color: purple;
+  border: solid purple;
+  border-radius: 30px;
+  text-align: center;
+}
