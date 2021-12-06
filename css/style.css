@@ -1,6 +1,3 @@
-body{
-  width: 1200px;
-}
 .header-logo{
   height: 30px;
 }
@@ -275,7 +272,7 @@ a {
   justify-content: flex-start;
 }
 .recruit-1{
-width: 500px;
+width: 50%;
 position: relative;
 }
 .recruit-1-text{
@@ -289,10 +286,10 @@ position: relative;
   transform: translate(-50%,-50%);
 }
 .recruit-1-img{
-  width: 500px;
+  width: auto;
 }
 .recruit-2{
-width: 500px;
+width: 50%;
 position: relative;
 }
 .recruit-2-text{
@@ -306,12 +303,13 @@ position: relative;
   transform: translate(-50%,-50%);
 }
 .recruit-2-img{
-  width: 500px;
+  width: auto;
 }
 .form-text{
-  margin: 30px 0 20px 300px;
+  margin: 30px 0 20px 0px;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 .form-form{
   text-align: center;
@@ -322,12 +320,12 @@ position: relative;
   display: block;
   border: none;
   height: 50px;
-  width: 800px;
+  width: 1200px;
   margin-left: 100px;
   caret-color: rgb(171, 54, 182);
 }
 .form-btn{
-  margin: 20px 0 30px -200px;
+  margin: 20px 0 30px px;
   background-color: purple;
   color: #fff;
   height: 50px;
@@ -336,6 +334,7 @@ position: relative;
   border: none;
   box-shadow: 0 5px 0 rgb(79, 1, 69);
   position: relative;
+  text-align: center;
 }
 .form-btn::before{
   content: "";
@@ -355,5 +354,6 @@ position: relative;
   justify-content: center;
 }
 .small{
-  margin: 25px 0 0 -200px;
+  margin: 25px 0 0 0px;
+  text-align: center;
 }
