@@ -25,6 +25,7 @@ a {
 .first-img{
   display: flex;
   flex-direction: row-reverse;
+  margin-right: 10%;
 }
 .main{
   position: relative;
@@ -33,11 +34,13 @@ a {
   position: absolute;
   top: 150px;
   right: 600px;
+  margin-right: 10%;
 }
 .text-1{
   font-size: 50px;
   padding-bottom: 20px;
   color: purple;
+  font-family:cursive;
 }
 .span-1{
   color: aqua;
@@ -114,6 +117,7 @@ a {
   right: 50px;
 }
 .about-text{
+  margin-right: 100px;
   transform: translate(20%,100px);
 }
 .service-rogo{
@@ -204,7 +208,7 @@ a {
   height: 300px;
   width: 250px;
   background-color: #fff;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 20px 20px;
   position: relative;
 }
 .blog-card-blog{
@@ -215,6 +219,10 @@ a {
   border-radius: 20px 0 0 0;
   background-color: purple;
   position: absolute;
+}
+.blog-card-blog .blog-card-blog-1{
+  display: inline-block;
+  padding: 5px 5px;
 }
 .blog-card-text-1{
   margin-bottom: 30px;
@@ -242,15 +250,16 @@ a {
 }
 .company-logo{
   color: purple;
-  margin: 50px 0 0 200px;
+  margin: 50px 0 0 30%;
 }
 .company-title{
   font-size: 20px;
   font-weight: bold;
-  margin: 20px 0 20px 200px;
+  margin: 20px 0 20px 30%;
 }
 .company-list{
-  margin-left: 200px;
+  display: flex;
+  justify-content: center;
 }
 .company-table-th{
   background-color: rgb(181, 181, 181);
@@ -286,7 +295,7 @@ position: relative;
   transform: translate(-50%,-50%);
 }
 .recruit-1-img{
-  width: auto;
+  width: 750px;
 }
 .recruit-2{
 width: 50%;
@@ -303,7 +312,7 @@ position: relative;
   transform: translate(-50%,-50%);
 }
 .recruit-2-img{
-  width: auto;
+  width: 750px;
 }
 .form-text{
   margin: 30px 0 20px 0px;
