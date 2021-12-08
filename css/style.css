@@ -11,7 +11,7 @@ a {
   align-items: center;
   height: 70px;
   padding: 0 30px;
-  margin: -15px;
+  margin: 0 15px;
 }
 .header-nav-list{
   display: flex;
@@ -98,12 +98,14 @@ a {
 }
 .about-logo{
   color: purple;
-  transform: translate(50%,40px);
+  text-align: center;
+  padding: 20px 0 0 0;
 }
 .about-title{
-  transform: translate(42%,50px);
+  text-align: center;
   font-size: 20px;
   font-weight: bold;
+  margin: 20px 0;
 }
 .about-img{
   display: flex;
@@ -113,12 +115,12 @@ a {
 .about-img-2{
   height: 250px;
   position: absolute;
-  top: -30px;
-  right: 50px;
+  top: -200px;
+  right: 10%;
 }
 .about-text{
-  margin-right: 100px;
-  transform: translate(20%,100px);
+  margin: 100px 0 0 300px;
+  display: inline-block;
 }
 .service-rogo{
   color: purple;
@@ -143,8 +145,8 @@ a {
   background-color: purple;
   height: 300px;
   width: 400px;
-  transform: translate(270px);
   text-align: center;
+  margin-left: 270px;
 }
 .service-card-2{
   color: #fff;
@@ -295,7 +297,7 @@ position: relative;
   transform: translate(-50%,-50%);
 }
 .recruit-1-img{
-  width: 750px;
+  width: 100%;
 }
 .recruit-2{
 width: 50%;
@@ -312,7 +314,7 @@ position: relative;
   transform: translate(-50%,-50%);
 }
 .recruit-2-img{
-  width: 750px;
+  width: 100%;
 }
 .form-text{
   margin: 30px 0 20px 0px;
